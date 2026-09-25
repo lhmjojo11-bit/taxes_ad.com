@@ -1,0 +1,42 @@
+.image-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	min-height: 100vh;
+	padding: 40px 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.image-page h1 {
+	margin: 0;
+}
+
+.image-link {
+	display: block;
+	max-width: 600px;
+}
+
+.image-link img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.text-link {
+	color: blue;
+	font-size: 1.2rem;
+}
+
+.action-button {
+	display: inline-block;
+	padding: 14px 28px;
+	border-radius: 6px;
+	background: blue;
+	color: white;
+	font-size: 1.1rem;
+	text-decoration: none;
+}

@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    color: blue;
+}
+
+.form-container {
+display: flex;
+justify-content: center; /* Horizontal alignment */
+align-items: center; /* Vertical alignment */
+height: 300px; /* Needed for vertical centering */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.you {
+    display: block;
+}
